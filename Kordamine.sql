@@ -17,6 +17,6 @@ DROP TABLE ...;
 --välisvõti  - FK
 ALTER TABLE opilane ADD FOREIGN KEY (ryhmId) REFERENCES ryhm(ryhmId);
 
-GRANT SELECT TO Ilja;
-GRANT INSERT ON opilane TO Ilja;
+GRANT SELECT TO Ilja2;
+GRANT INSERT ON opilane TO Ilja2;
 
