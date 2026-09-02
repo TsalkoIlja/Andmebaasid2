@@ -26,5 +26,5 @@ where opilane.ryhmId=ryhm.ryhmId;
 
 Delete from opilane;
 
-insert into opilane values ('Erik', '12345678910', 1);
+insert into opilane values ('Nikita', '12345678900', 1);
 
