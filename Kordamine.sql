@@ -19,4 +19,12 @@ ALTER TABLE opilane ADD FOREIGN KEY (ryhmId) REFERENCES ryhm(ryhmId);
 
 GRANT SELECT TO Ilja2;
 GRANT INSERT ON opilane TO Ilja2;
+deny delete to Ilja2;
+
+select * from opilane, ryhm
+where opilane.ryhmId=ryhm.ryhmId;
+
+Delete from opilane;
+
+insert into opilane values ('Erik', '12345678910', 1);
 
