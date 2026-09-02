@@ -12,7 +12,7 @@ ryhmNimi char(10) Unique,
 opilasteArv int);
 
 --tabeli kustutamine
-DROP TABLE ...;
+--DROP TABLE ...;
 
 --välisvõti  - FK
 ALTER TABLE opilane ADD FOREIGN KEY (ryhmId) REFERENCES ryhm(ryhmId);
