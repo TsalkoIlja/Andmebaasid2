@@ -125,9 +125,9 @@ INSERT INTO [Aadress] ([aadress], [KlientID]) VALUES
 ('Mustakivi 1', 1),
 ('Kivimurru 32', 2),
 ('Toome 3', 1),
-('Prisli 45', 4),
-('Mustakivi 5', 4),
-('Mustamäe 16', 3);
+('Prisli 45', 3),
+('Mustakivi 5', 3),
+('Mustamäe 16', 4);
 
 -- 3. Типы конфет
 INSERT INTO [Kommityyp] ([KommityypID], [Kommityyp]) VALUES 
